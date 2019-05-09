@@ -21,7 +21,7 @@ spec:
       - env:
         - name: spring.profiles.active
           value: dev
-        image: 10.234.138.130:5000/renren/fast
+        image: 10.234.138.130:5000/renren/fast_${namespace}
         name: renren-fast
         ports:
         - containerPort: 8280

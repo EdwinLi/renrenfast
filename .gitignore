@@ -1,0 +1,17 @@
+*.project
+*.settings
+*.classpath
+*.settings
+*.iws
+*.ipr
+*.idea
+*.iml
+*.log
+*.bak
+.DS_Store
+rebel.xml
+
+*/target/
+.idea/
+/bin/
+/logs/

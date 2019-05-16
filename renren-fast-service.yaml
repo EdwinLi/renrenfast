@@ -12,6 +12,7 @@ spec:
   ports:
   - name: "8280"
     port: 8280
+    nodePort: 
     targetPort: 8280
   selector:
     io.kompose.service: renren-fast
